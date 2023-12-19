@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Quicksand:wght@600&display=swap');
+
+:root{
+  --primary: #09b43a;
+  --error: #e7195a;
+}
+body {
+  background: #272b33;
+  margin: 0;
+  font-family: "Inter";
+}
+header {
+  color: #fff;
+  font-family: "Quicksand";
+  background: #0a0c10;
+
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a{
+  color: #fff;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+.work-details {
+  background: #525964;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.work-details h4 {
+  margin: 0 0 10px 0;
+  font-weight:bolder;
+  font-size: 1.2em;
+  color: #fff;
+}
+.work-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #000;
+}
+.work-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #525964;
+  padding: 6px;
+  border-radius: 50%;
+  color: #000;
+}
+
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  display: block;
+  margin: auto;
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Quicksand";
+  border-radius: 4px;
+  cursor: pointer;
+}
+form.create{
+  color: #fff;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  margin-left: 10px;
+}
+
+form.signup, form.login{
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+form.signup button, form.login button{
+  display: block;
+  margin: auto;
+}
+
+nav button{
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Quicksand";
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
+}
