@@ -50,12 +50,12 @@ Create a .env file in the server directory and add:
 
 
 ### Run the server
-`cd Server
-npm start`
+`cd Server`<br />
+`npm start`
 
 ### Run the client (in a separate terminal window)
-`cd front
-npm start`
+`cd front`<br />
+`npm start`
 
 Access the application at http://localhost:3000 in your web browser.
 
