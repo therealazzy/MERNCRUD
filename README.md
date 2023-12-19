@@ -1,5 +1,6 @@
 # 🛠️ MERN Stack CRUD Application with Authorization [![My Skills](https://skillicons.dev/icons?i=mongodb)](https://skillicons.dev)[![My Skills](https://skillicons.dev/icons?i=express)](https://skillicons.dev)[![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev)[![My Skills](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)
-This is a full-stack web application built using the MERN stack - MongoDB, Express.js, React.js, and Node.js. It includes authentication and authorization functionalities for secure user interaction. 🔒
+
+A robust full-stack web application built using the MERN stack - MongoDB, Express.js, React.js, and Node.js. It includes authentication and authorization functionalities for secure user interaction. 🔒
 
 ## Features 🚀
 
