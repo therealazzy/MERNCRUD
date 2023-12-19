@@ -3,29 +3,29 @@ This is a full-stack web application built using the MERN stack - MongoDB, Expre
 
 ## Features 🚀
 
-**Express App:** Utilizes Express.js for server-side application handling.
+**Express App:** _Utilizes Express.js for server-side application handling._
 
-**Express Router & API Routes:** Organizes API routes using Express Router for better code structure.
+**Express Router & API Routes:** _Organizes API routes using Express Router for better code structure._
 
-**MongoDB Atlas and Mongoose:** Integrates MongoDB Atlas as the database and utilizes Mongoose for data modeling.
+**MongoDB Atlas and Mongoose:** _Integrates MongoDB Atlas as the database and utilizes Mongoose for data modeling._
 
-**Handling Error Responses:** Implements error handling for robust error responses throughout the application.
+**Handling Error Responses:** _Implements error handling for robust error responses throughout the application._
 
-**Express Routes & React Routes:** Defines server-side routes and client-side routes for seamless navigation.
+**Express Routes & React Routes:** _Defines server-side routes and client-side routes for seamless navigation._
 
-**Hashing Passwords:** Secures user passwords by hashing before storing them in the database.
+**Hashing Passwords:** _Secures user passwords by hashing before storing them in the database._
 
-**Data Validation:** Validates input data both on the server and client sides to ensure data integrity.
+**Data Validation:** _Validates input data both on the server and client sides to ensure data integrity._
 
-**JSON Web Tokens (JWT):** Implements JWT for authentication and generates tokens for authorized access.
+**JSON Web Tokens (JWT):** _Implements JWT for authentication and generates tokens for authorized access._
 
-**React Contexts:** Utilizes React Context API for state management across the application.
+**React Contexts:** _Utilizes React Context API for state management across the application._
 
-**API Route Protection:** Secures API routes to allow access only to authorized users.
+**API Route Protection:** _Secures API routes to allow access only to authorized users._
 
-**Authorized Requests:** Ensures only authorized users can perform CRUD operations.
+**Authorized Requests:** _Ensures only authorized users can perform CRUD operations._
 
-**React Route Protection:** Implements route protection in React to control access based on user authentication status.
+**React Route Protection:** _Implements route protection in React to control access based on user authentication status._
 
 # Technologies Used 💻
 
