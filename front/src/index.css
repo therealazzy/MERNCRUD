@@ -123,8 +123,11 @@ nav a {
 }
 
 section {
-  position: relative;
+  position: absolute;
+  top: 35%;
+  left: 39%;
   margin: 0 auto;
+  padding-top: 100px;
   padding: 5px;
   max-width: 300px;
   background-image: linear-gradient(to right,rgb(102, 204, 255),rgb(51, 153, 255),rgb(102, 102, 255),rgb(153, 153, 255),rgb(255, 153, 255));
