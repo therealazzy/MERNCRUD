@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Quicksand:wght@600&display=swap');
 
+
 :root{
   --primary: #09b43a;
   --error: #e7195a;
   --accent: #ae6ee7;
+  --col1: #663dff;
+  --col2: #663dff 0%;
+  --col3: #aa00ff 37%;
+  --col4: #cc4499 100%;
+
 }
 body {
   background: #272b33;
@@ -32,7 +38,7 @@ header a{
 .pages{
   max-width: 1400px;
   padding: 40px;
-  margin: 0 auto;
+  margin: 0 auto;  
 }
 
 .home {
@@ -120,7 +126,7 @@ form.signup, form.login{
   max-width: 400px;
   margin: 40px auto;
   padding: 20px;
-  background: #fff;
+background: #fff;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -136,6 +142,7 @@ form.signup input, form.login input{
   font-weight: 300;
   transition: 300ms ease;
 }
+
 
 form.signup input:focus, form.login input:focus{
   outline: none;
