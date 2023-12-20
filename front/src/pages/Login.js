@@ -40,10 +40,10 @@ const Login = () => {
               />
 
               <button disabled={isLoading}> Log in </button>
-              {error && <div className="error">{error}</div>}
             </form>
           </div>
         </section>
+        {error && <div className="error">{error}</div>}
       </div>
     );
 }

@@ -104,6 +104,10 @@ form.create{
 }
 div.error {
   padding: 10px;
+  position: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
   background: #ffefef;
   border: 1px solid var(--error);
   color: var(--error);
@@ -125,7 +129,7 @@ nav a {
 section {
   position: absolute;
   top: 35%;
-  left: 39%;
+  left: 42%;
   margin: 0 auto;
   padding-top: 100px;
   padding: 5px;
@@ -148,7 +152,6 @@ section div {
 form.signup, form.login{
   max-width: 400px;
   color: #fff;
-  display:grid;
   grid-auto-rows: min-content;
   align-items: center;
   margin: 0 auto;
